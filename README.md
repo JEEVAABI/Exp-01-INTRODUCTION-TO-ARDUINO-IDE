@@ -132,6 +132,38 @@ digitalWrite(ledPin, HIGH); // set the LED on
 delay(1000); // wait for a second
 digitalWrite(ledPin, LOW); // set the LED off
 delay(
+### program:
+// C++ code
+//
+void setup()
+{
+  pinMode(8,OUTPUT);
+  pinMode(7,OUTPUT);
+  pinMode(4,OUTPUT);
+  pinMode(2,OUTPUT); 
+}
+
+void loop()
+{
+  digitalWrite(8, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(8, LOW);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(7, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(7, LOW);
+  delay(500);
+  digitalWrite(4, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(4, LOW);
+  delay(500);
+  digitalWrite(2, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(2, LOW);
+  delay(500);
+}
+### output image:
+![output](out.png)
 
 
 RESULTS:

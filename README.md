@@ -133,6 +133,7 @@ delay(1000); // wait for a second
 digitalWrite(ledPin, LOW); // set the LED off
 delay(
 ### program:
+~~~
 // C++ code
 //
 void setup()
@@ -162,6 +163,7 @@ void loop()
   digitalWrite(2, LOW);
   delay(500);
 }
+~~~
 ### output image:
 ![output](out.png)
 
